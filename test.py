@@ -1,5 +1,4 @@
-def solution():
-    string='aaaaaa'
+def solution(string):
     if string.islower() and string.isalpha():
         if 2 <= len(string) <= 300000: 
             split_string = [string[i:i+2] for i in range(0, len(string), 1)]
